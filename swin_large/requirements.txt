@@ -1,0 +1,24 @@
+# =============================================================================
+# Swin Transformer Large - Dependencies
+# =============================================================================
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+pandas>=1.3.0
+opencv-python>=4.5.0
+tqdm>=4.60.0
+
+# MMDetection (install via mim)
+# pip install -U openmim
+# mim install mmengine
+# mim install "mmcv>=2.0.0"
+# mim install mmdet
+
+# Augmentation
+scikit-image>=0.18.0
+
+# Feature extraction (optional for fusion)
+lightgbm>=3.0.0
+scikit-learn>=0.24.0

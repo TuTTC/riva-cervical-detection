@@ -1,0 +1,22 @@
+# Challenge data (do not redistribute)
+data/
+
+# Model weights and outputs
+*.pth
+*.pt
+*.pkl
+*.onnx
+*.zip
+work_dirs/
+runs/
+
+# Secrets
+.env
+
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+desktop.ini

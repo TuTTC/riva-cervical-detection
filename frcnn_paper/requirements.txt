@@ -1,0 +1,33 @@
+# =============================================================================
+# Faster R-CNN Paper Reproduction - Requirements
+# =============================================================================
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Progress & Visualization
+tqdm>=4.65.0
+matplotlib>=3.7.0
+
+# Machine Learning (for feature fusion)
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+lightgbm>=4.0.0
+
+# Optional: MMDetection (for Swin Transformer)
+# openmim
+# mmengine
+# mmcv>=2.0.0
+# mmdet>=3.0.0
+
+# Utilities
+PyYAML>=6.0
